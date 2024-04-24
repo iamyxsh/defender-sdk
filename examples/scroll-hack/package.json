@@ -1,0 +1,19 @@
+{
+  "name": "scroll-hack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx watch index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/defender-sdk-deploy-client": "file:../../packages/deploy",
+    "ts-node": "^10.9.2",
+    "tsc-node": "^0.0.3",
+    "tsc-watch": "^6.2.0",
+    "tsx": "^4.7.2"
+  }
+}
